@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Natural Tones Color Theme Definitions */
+  --color-nat-bg: #FCFAF6;
+  --color-nat-text: #423835;
+  --color-nat-heading: #20130F;
+  --color-nat-sage: #DE7E7B;
+  --color-nat-sage-light: #C5A199;
+  --color-nat-muted: #F5EFEB;
+  --color-nat-border: #EFE6DF;
+  --color-nat-border-dark: #DCC3B5;
+
+  /* Femine Specific Palette */
+  --color-femine-bg: #FCFAF6;
+  --color-femine-dark-bg: #F5EFEB;
+  --color-femine-text: #423835;
+  --color-femine-heading: #20130F;
+  --color-femine-coral: #DE7E7B;
+  --color-femine-coral-light: #F9EAE8;
+  --color-femine-berry: #7E1A35;
+  --color-femine-berry-light: #F3E3E6;
+  --color-femine-clay: #C5A199;
+  --color-femine-border: #EFE6DF;
+  --color-femine-border-dark: #DCC3B5;
+}
+
+/* Custom soft visual animations */
+@keyframes pulse-soft {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.03);
+    opacity: 0.95;
+  }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 3s infinite ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #FCFAF6;
+}

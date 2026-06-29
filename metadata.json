@@ -1,0 +1,6 @@
+{
+  "name": "Elisabetta Melucci Coach",
+  "description": "Sito web professionale one-page per Elisabetta Melucci, Life & Business Coach, con gioco interattivo della Ruota della Vita e prenotazione Cal.com.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
